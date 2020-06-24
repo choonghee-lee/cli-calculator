@@ -98,5 +98,7 @@ def vaoc(height, radian):
     click.secho(f"Area: {((2*pi*radian) * height) + ((pi*radian**2)*2)}", fg="blue", bg="white")
 
 
+main.add_command(arithmetics)
+
 if __name__ == "__main__":
     main()
