@@ -22,7 +22,7 @@ dependency_links = [x.strip().replace('git+', '') for x in all_reqs \
 setup (
     name = 'bambic',
     description = 'WeCode 11th Bambi\'s second challenge of python programming',
-    version = '0.1.0',
+    version = '0.1.1',
     packages = find_packages(), # list of all packages
     install_requires = install_requires,
     python_requires='>=3.7', 

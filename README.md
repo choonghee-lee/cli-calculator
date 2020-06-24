@@ -21,5 +21,5 @@ A simple commandline calculator app
 # Usage
 
 ```bash
-$ bambic
+$ bambic --help
 ```

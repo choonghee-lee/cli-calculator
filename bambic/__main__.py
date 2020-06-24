@@ -4,7 +4,7 @@ from pkg_resources import iter_entry_points
 from click_help_colors import HelpColorsGroup, HelpColorsCommand
 from math import pi, factorial
 
-@click.version_option('0.1.0', prog_name="Calculator From CLI")
+@click.version_option('0.1.1', prog_name="Calculator From CLI")
 @with_plugins(iter_entry_points("click_command_tree"))
 @click.group(
     cls=HelpColorsGroup,
